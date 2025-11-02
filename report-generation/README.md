@@ -216,4 +216,4 @@ If you use this submodule, please cite:
 
 Developed at the **Menze Lab**, University of Zurich,
 in collaboration with **NVIDIA**, **Imperial College London**, and **FAU Erlangen-Nürnberg**,
-using **H100 GPU clusters** on **CSCS** and **NHR@FAU**.
+using **H100 GPU clusters** on **NHR@FAU**.
