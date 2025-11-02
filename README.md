@@ -1,5 +1,3 @@
----
-
 # **BTB3D: Better Tokens for Better 3D**
 
 Official repository for
