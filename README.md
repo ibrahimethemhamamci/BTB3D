@@ -1,4 +1,4 @@
-# **BTB3D: Better Tokens for Better 3D [NEURIPS 2025]**
+# **BTB3D: Better Tokens for Better 3D [NeurIPS 2025]**
 
 Official repository for
 **“Better Tokens for Better 3D: Advancing Vision–Language Modeling in 3D Medical Imaging”**
