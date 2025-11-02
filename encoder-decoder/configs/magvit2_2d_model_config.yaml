@@ -1,0 +1,27 @@
+model:
+    quantize_model:
+        quantizer_type: lfq
+        skip_quantize: false
+        codebook_size: 262144 # 2**18
+        token_size: 18
+        use_l2_norm: false
+
+    encoder:
+        filters: 32
+        num_res_blocks: 4
+        channel_multipliers: [1, 1, 2, 2, 4]
+    decoder:
+        filters: 32
+        num_res_blocks: 4
+        channel_multipliers: [1, 1, 2, 2, 4]
+
+    discriminator: 
+        filters: 8
+        channel_multipliers: [1,1,2,2,4]
+
+data: 
+    spatial_size: 512
+
+seed: 42
+modal: image
+architecture: magvit2

@@ -1,0 +1,30 @@
+model:
+  quantize_model:
+    quantizer_type: lfq
+    skip_quantize: false
+    codebook_size: 262144 # 2**18
+    token_size: 18
+    use_l2_norm: false
+
+  encoder:
+    filters: 32 #32
+    num_res_blocks: 4
+    temporal_downsample: [false, false, true, true]
+    channel_multipliers: [1, 1, 2, 2, 4] # [1,1,2,2,4]
+  decoder:
+    filters: 32
+    num_res_blocks: 4
+    temporal_downsample: [false,false,  true, true]
+    channel_multipliers: [1, 1, 2, 2, 4]
+
+  discriminator:
+    filters: 1
+    channel_multipliers: [1,2,4]
+
+data:
+  spatial_size: 512
+  num_frames: 9
+
+seed: 42
+modal: video
+architecture: magvit2
