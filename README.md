@@ -1,12 +1,16 @@
-# **BTB3D: Better Tokens for Better 3D**
+# **BTB3D: Better Tokens for Better 3D [NEURIPS 2025]**
 
 Official repository for
 **“Better Tokens for Better 3D: Advancing Vision–Language Modeling in 3D Medical Imaging”**
 **Ibrahim Ethem Hamamcı***, **Sezgin Er***, **Suprosanna Shit***, Hadrien Reynaud, Dong Yang, Pengfei Guo, Marc Edgar, Daguang Xu, Bernhard Kainz, Bjoern Menze
-
-*(* equal contribution)*
+*(*equal contribution)*
 
 arXiv: [2510.20639](https://arxiv.org/abs/2510.20639), 2025
+
+**🔗 Resources:**
+
+* Model Weights: [**BTB3D on Hugging Face**](https://huggingface.co/Forithmuscom/BTB3D)
+* Dataset: [**CT-RATE on Hugging Face**](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE)
 
 ---
 
@@ -52,7 +56,6 @@ Each folder includes its own `README.md` detailing configuration, dependencies, 
 | **Encoder–Decoder**   | 3D MAGViT-2–based tokenizer that compresses CT volumes into discrete latent codes (`.npz`), forming a foundation for downstream modeling. |
 | **Report Generation** | LLaVA-based multimodal model (LLaMA-3.1-8B backbone) trained on (encoded-CT, report) pairs for radiology report generation.               |
 | **CT Generation**     | Flow-matching–based text-conditional generator that reconstructs or synthesizes CT volumes directly from natural-language prompts.        |
-
 
 ---
 
