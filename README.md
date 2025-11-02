@@ -84,6 +84,6 @@ If you use this repository or any of its components, please cite:
 
 Developed at the **Menze Lab**, University of Zurich,
 in collaboration with **NVIDIA**, **Imperial College London**, and **FAU Erlangen–Nürnberg**,
-using **H100 GPU clusters** at **CSCS** and **NHR @ FAU**.
+using **H100 GPU clusters** at **NHR @ FAU**.
 
 ---
