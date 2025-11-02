@@ -2,7 +2,9 @@
 
 Official repository for
 **“Better Tokens for Better 3D: Advancing Vision–Language Modeling in 3D Medical Imaging”**
+
 **Ibrahim Ethem Hamamcı***, **Sezgin Er***, **Suprosanna Shit***, Hadrien Reynaud, Dong Yang, Pengfei Guo, Marc Edgar, Daguang Xu, Bernhard Kainz, Bjoern Menze
+
 *(*equal contribution)*
 
 arXiv: [2510.20639](https://arxiv.org/abs/2510.20639), 2025
