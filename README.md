@@ -5,8 +5,6 @@ Official repository for
 
 **Ibrahim Ethem Hamamcı***, **Sezgin Er***, **Suprosanna Shit***, Hadrien Reynaud, Dong Yang, Pengfei Guo, Marc Edgar, Daguang Xu, Bernhard Kainz, Bjoern Menze
 
-*(*equal contribution)*
-
 arXiv: [2510.20639](https://arxiv.org/abs/2510.20639), 2025
 
 **🔗 Resources:**
@@ -24,7 +22,7 @@ arXiv: [2510.20639](https://arxiv.org/abs/2510.20639), 2025
 
 ## 🧠 Overview
 
-**BTB3D** introduces a unified framework for **3D vision–language modeling in medical imaging**, combining **volumetric tokenization**, **report generation**, and **conditional 3D CT generation**.
+**BTB3D** introduces a unified framework for **3D vision–language modeling in medical imaging**, combining **volumetric tokenization**, **report generation**, and **conditional 3D chest CT generation**.
 It establishes a scalable bridge between radiological imaging and language through modular, reusable components designed for multimodal learning.
 
 ---
@@ -79,16 +77,7 @@ If you use this repository or any of its components, please cite:
   author={Ibrahim Ethem Hamamci and Sezgin Er and Suprosanna Shit and Hadrien Reynaud and Dong Yang and Pengfei Guo and Marc Edgar and Daguang Xu and Bernhard Kainz and Bjoern Menze},
   journal={arXiv preprint arXiv:2510.20639},
   year={2025},
-  note={* equal contribution}
 }
 ```
-
----
-
-## 🏥 Acknowledgements
-
-Developed at the **Menze Lab**, University of Zurich,
-in collaboration with **NVIDIA**, **Imperial College London**, and **FAU Erlangen–Nürnberg**,
-using **H100 GPU clusters** at **NHR @ FAU**.
 
 ---
