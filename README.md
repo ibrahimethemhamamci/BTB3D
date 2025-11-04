@@ -20,14 +20,14 @@ arXiv: [2510.20639](https://arxiv.org/abs/2510.20639), 2025
 
 ---
 
-## 🧠 Overview
+## Overview
 
 **BTB3D** introduces a unified framework for **3D vision–language modeling in medical imaging**, combining **volumetric tokenization**, **report generation**, and **conditional 3D chest CT generation**.
 It establishes a scalable bridge between radiological imaging and language through modular, reusable components designed for multimodal learning.
 
 ---
 
-## 🧩 Repository Structure
+## Repository Structure
 
 ```
 BTB3D/
@@ -49,7 +49,7 @@ Each folder includes its own `README.md` detailing configuration, dependencies, 
 
 ---
 
-## 🔬 Components
+## Components
 
 | Component             | Description                                                                                                                               |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -67,7 +67,7 @@ Each folder includes its own `README.md` detailing configuration, dependencies, 
 
 ---
 
-## 📜 Citation
+## Citation
 
 If you use this repository or any of its components, please cite:
 
